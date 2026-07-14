@@ -1,6 +1,0 @@
-%FACTS
-father(john,peter).
-father(john,mary).
-
-mother(john,peter).
-mother(john,mary).
