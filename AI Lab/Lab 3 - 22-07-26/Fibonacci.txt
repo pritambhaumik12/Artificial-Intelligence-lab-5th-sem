@@ -1,0 +1,35 @@
+%Fibonacci in Prolog
+fib(0,0).
+fib(1,1).
+
+fib(I,Val):-
+    I>1,
+    N1 is I-1,
+    N2 is I-2,
+    fib(N1,F1),
+    fib(N2,F2),
+    Val is F1+F2.
+
+
+Query: 
+fib(2,A).
+
+
+
+2.
+ % [10,20,30,40]
+
+member(X,[X|_]). 
+    
+O/P:-
+member(10,[10,20,30,40]).
+
+
+
+3.
+
+
+member(X[X|_]).
+member(X,[_|T]):-
+	member(X,T).
+                                                                                                                                                 
